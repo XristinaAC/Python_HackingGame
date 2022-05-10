@@ -1,0 +1,5 @@
+Hacking - Game that prompts the gamer to guess a password. It provides a list of possible passwords that the gamer must choose from. The password is selected randomly for every new game. The password list is mixed with non-letter characters. Afterwards the program evaluates the player's guess. The player has four tries. At the last try a lookout warning appears and after each wrong guess the game gives a hint. When there is no more tries for the player or the player guessed correctly the window clears and the end message appears depending the outcome of the player's guess. The game promts the gamer to press 'ENTER' to exit the game.
+
+The game creates a new window. For the window creation the library uagame is used. Uagame was created for the purposes of the course and for its creation the pygame library is used. The window cannot be closed unless the player reaches the final screen. 
+
+The game was created while attending the course "Problem Solving, Python Programming, and Video Games" by University of Alberta, in Coursera. This course is an introduction to computer science and programming in Python. 
